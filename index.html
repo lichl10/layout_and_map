@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Layout & Map</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://d3js.org/d3.v7.min.js" charset="utf-8"></script>
+        <script src="https://unpkg.com/topojson@3"></script>
+        <script defer src="script.js"></script>
+      </head>
+      <body>
+        <div class="container">
+          <h1>Airport Connections</h1>
+          <span>
+            <input type="radio" id="force" name="option" value="force" checked="checked"> Force  
+            <input type="radio" id="map" name="option" value="map">  Map
+          </span>
+          <div class="chart"></div>
+        </div>
+      </body>
+</html>
